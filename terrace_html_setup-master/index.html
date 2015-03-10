@@ -3,55 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <title>Terrace HTML Structure</title>
-
-<!-- ****CSS**** -->
-<link rel='stylesheet' id='clean-style-scss'  href="terrace_html_setup-master/css/clean_style.scss" type='text/css' media='all' />
-<link rel='stylesheet' id='clean-style-css'  href="terrace_html_setup-master/css/clean_style.css" type='text/css' media='all' />
-
-<!-- ****JS**** -->
+<!-- ****CSS 1****-->
+<link rel="stylesheet" href="css/clean_style.css" type="text/css">
 
 <!-- ****FONTS**** -->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-<link rel="icon" href="terrace_html_setup-master/fonts/demo.html" rel='stylesheet' type='text/css'>
-<link rel="icon" href="terrace_html_setup-master/fonts/demo-files/demo.css" rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="http://i.icomoon.io/public/temp/18f5701207/UntitledProject/style.css">
-
-
-<!-- **** FlexSLIDER ****-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,900,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="flexslider.css" type="text/css">
+<link rel="stylesheet" href="css/icon-fonts.css" type="text/css">
+<link rel="stylesheet" href="icomoon/style.css" type="text/css">
+<!-- **** FlexSLIDER ****-->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="jquery.flexslider.js"></script>
 </head>
-<body>
+<body class="clean">
     
  <!-- **************************MODULE 1 ************************** -->  
 
 <header>
     <div class="center">
-        <aside><!-- This area is for your logo, name & title -->
-            <div class="logo"></div>
-            <h1>First Name/Last Name<span>Designer</span></h1>
+        <aside> <!-- This area is for your logo, name & title -->
+            <div class="logo"> <img src="img/logo_org.png"> </div>
+            <h1>Clean Module<span>&nbsp;Template</span></h1>
         </aside>
+        
         <nav> <!-- This navigation takes you to different areas of the page-->
             <ul>
                 <li>
                     <a hef ="#">
-                        <span class="icon-home"></span>
+                        <span class="icon-home" title="home"></span>
                     </a>
                 </li>
                 <li>
                     <a hef ="#">
-                        <span class="icon-book"></span>
+                        <span class="icon-dashboard" title="gallery"></span>
                     </a>
                 </li>
                 <li>
                     <a hef ="#">
-                        <span class="icon-user-tie"></span>
+                        <span class="icon-person" title="about"></span>
                     </a>
                 </li>
                 <li>
                     <a hef ="#">
-                        <span class="icon-pencil"></span>
+                        <span class="icon-message" title="contact"></span>
                     </a>
                 </li>
             </ul>
@@ -60,8 +55,9 @@
 </header><!--closing tag header -->
 
  <!-- ************************** MODULE 2 ************************** -->
-<!--<section class="slider">
-    <div class="flexslider">
+ <section class="slider">
+	<div class="cta_btn"> <a href="#"><img src="img/btn.png"> </div></a>
+   <!--<div class="flexslider">
         <ul class="slides">
             <li>
                 <img src="_Dev/img_rebull_project_01.png" />
@@ -76,15 +72,16 @@
                 <img src="_Dev/img_rebull_project_01.png" />
             </li>
         </ul>
-    </div>
-</section> -->
+    </div> -->
+</section>
  <!-- ************************** MODULE 3 ************************** -->  
 
 <section class="gallery">
     <div class="center">
+    <h1 class="gallerytitle"> My Projects </h1>
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -93,7 +90,7 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -102,7 +99,7 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -111,7 +108,7 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -120,7 +117,7 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -129,7 +126,7 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
@@ -138,22 +135,25 @@
         </article><!--closing tag projects-->  
         <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
                 </div>
             </a>
         </article><!--closing tag projects-->  
-        <article class="projects">
+  
+  		  <article class="projects">
             <a href="#">
-                <img src="#" class="projects" alt="">
+                <img src="img/thumbnail.jpg" class="projects" alt="">
                 <div class="content">
                     <h3 class="project-title">Project 1 </h3>
                     <p class="project-text">This project is about...</p>
                 </div>
             </a>
-        </article><!--closing tag projects-->  
+        </article><!--closing tag projects--> 
+       
+        
     </div>
 </div><!-- closing tag "class centered"-->
 
@@ -163,12 +163,13 @@
 <section class="about">
     <div class="center">
         <div class="image">
-            <img src="#"/>
+        	<h1>About</h1>
+            <img src="img/designer.jpg"/>
         </div>
         <div class="content">
-            <h1>About</h1>
-            <p>Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.</p>
-            <p><a href="#">Resume</a></p>
+            <h1> Hello World	! </h1>
+            <p>This is Terrace's example of "Clean Template". If focuses on more active space in order to highlight the content of your website. It allows the user to chose an identity color to enhace their brand. Its simplistic design caters to the designer who's main objective is to promote their work. Please see downloading instructions to use Clean Template in a way that fits your needs. This is Terrace's example of "Clean Template". If focuses on more active space in order to highlight the content of your website. It allows the user to chose an identity color to enhace their brand. Its simplistic design caters to the designer who's main objective is to promote their work. Please see downloading instructions to use Clean Template in a way that fits your needs.</p>
+            <p id="resume"><a href="#">Resume</a></p>
         </div>
     </div>
 </section>
@@ -179,6 +180,7 @@
     <div id="center">
     
         <div class="contactForm">
+        <h1> Contact </h1>
     
         <form id="contact-form" action="script.php" method="post">
             <input type="hidden" name="redirect" value="#" />
@@ -196,18 +198,18 @@
                 </li>
                 
                 <li>
-                    <input type="submit" value="submit" />
+                    <input type="submit" value="submit" id="submit_btn"/>
                 </li>
             </ul>
         </form>
      
         <aside class="social-media">
             <ul>
-            <li class="networks"><a href="#"> <img src="" target="_blank"> <span class="icon-linkedin"></span></a></li>
-            <li class="networks"><a href="#"> <img src="" class="social-icons" target="_blank"> <span class="icon-"> </a></li>
-            <li class="networks"><a href="#"> <img src="" class="social-icons" target="_blank"> <span class="icon-linkedin"> </a></li>
-            <li class="networks"><a href="#"> <img src="" class="social-icons" target="_blank"> Facebook</a></li>
-            <li class="networks"><a href="mailto:#"> <img src="" class="social-icons" target="_blank"> EMAIL@.COM</a></li>
+            <li class="networks"><a href="#" target="_blank" ><span class="icon-linkedin" title="linkedin"></span></a></li>
+            <li class="networks"><a href="#" target="_blank" ><span class="icon-instagram" title="instagram"></span></a></li>
+            <li class="networks"><a href="#" target="_blank" ><span class="icon-facebook2" title="facebook"></span></a></li>
+            <li class="networks"><a href="#" target="_blank" ><span class="icon-twitter2" title="twitter"></span></a></li>
+            <li class="networks"><a href="mailto:#" ><span class="icon-mail" title="email"></span></a></li>
             </ul>
         </aside><!--closing tag "social-media"-->
    
